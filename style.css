@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f1faee;
+}
+.undsen {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #a8dadc;
+width: 600px;
+margin-top: 64px;
+padding-bottom: 96px;
+border-radius: 32px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.header {
+    margin-top: 128px;
+    font-family: "Just Another Hand", cursive;
+}
+.questions {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 64px;
+}
+.quest1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    gap: 64px;
+    height: 64px;
+    width: 512px;
+    transition: width 1s, height 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.quest1:hover, .buttons,
+.buttons:hover {
+    border-color: #e63946;
+    border-style: solid;
+    border-width: 1px 1px;
+    box-sizing: border-box;
+}
+.quest1:hover .buttons,
+.buttons:hover {
+  border: 1px solid #e63946;
+}
+.quest2:hover, .buttons,
+.buttons:hover {
+    border-color: #e63946;
+    border-style: solid;
+    border-width: 1px 1px;
+    box-sizing: border-box;
+}
+.quest2:hover .buttons,
+.buttons:hover {
+  border: 1px solid #e63946;
+}
+.quest3:hover, .buttons,
+.buttons:hover {
+    border-color: #e63946;
+    border-style: solid;
+    border-width: 1px 1px;
+    box-sizing: border-box;
+}
+.quest3:hover .buttons,
+.buttons:hover {
+  border: 1px solid #e63946;
+}
+.quest11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    gap: 62px;
+    height: 64px;
+    width: 512px;
+    transition: width 1s, height 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.quest1.active {
+    height: 256px;
+    width: 512px;
+}
+
+.quest2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    gap: 114px;
+    height: 64px;
+    width: 512px;
+    transition: width 1s, height 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.quest2.active {
+    height: 256px;
+    width: 512px;
+}
+.quest3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    height: 64px;
+    gap: 104px;
+    width: 512px;
+    transition: width 1s, height 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.quest3.active {
+    height: 256px;
+    width: 512px;
+}
+.buttons {
+    height: 36px;
+    width: 36px;
+    background-color: #f1faee;
+    color: black;
+    font-size: larger;
+    border: 0px;
+    border-radius: 9px;
+}
